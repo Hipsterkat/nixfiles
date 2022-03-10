@@ -20,7 +20,7 @@
   # Locale
     i18n.defaultLocale = "en_US.UTF-8";
     console = {
-    font = "Lat2-Terminus16";
+    font = "Iosevka";
     keyMap = "us";
   };
   
@@ -105,35 +105,48 @@
         tmux
 	pfetch
         neofetch
-	alacritty
+	konsole
 	rustup
 	cmake
 	openssl
+	ark
 
         #developing
         neovim
         vim
-        emacs
         vscode
         docker
 
         #applications
         mpv
+	thunar
+	dolphin
         spotify
         firefox
-	chromium
         thunderbird
         pavucontrol
+	qbittorrent
         discord
-	gnome.gnome-screenshot
+	spectacle
+	#gnome.gnome-screenshot
 
+	#productivity
+	obs-studio
+	audacity
+	blender
+	inkscape
+	kdenlive
+	aesprite
+	krita
+	gimp
+	
 	#ricing
-	nordic
+	#nordic
 
 	#gnome
-	gnome3.gnome-tweak-tool
-        gnomeExtensions.appindicator
-        gnomeExtensions.dash-to-dock
+	#gnome3.gnome-tweak-tool
+        #gnomeExtensions.appindicator
+        #gnomeExtensions.dash-to-dock
 	
 	#virtualization
 	libvirt
