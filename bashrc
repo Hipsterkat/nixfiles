@@ -17,14 +17,11 @@ fi
 export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput setaf 2)\]@\[$(tput setaf 4)\]\h \[$(tput setaf 5)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 7)\]\\$ \[$(tput sgr0)\]"
 
 alias v="nvim"
-alias update="sudo pacman -Syyu && sudo pacman -Syu"
 alias brb="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias enable="sudo systemctl enable"
 alias disable="sudo systemctl disable"
-alias t="sudo thunar"
-alias n="nano"
-alias install="sudo pacman -S"
-alias remove="sudo pacman -R"
+alias config="sudo nvim /etc/nix/configuration.nix"
+alias hardware="sudo nvim /etc/nix/hardware.nix"
 alias pi="sudo picom -b"
 
 # BEGIN_KITTY_SHELL_INTEGRATION
