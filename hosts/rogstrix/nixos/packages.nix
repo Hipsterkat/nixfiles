@@ -24,8 +24,6 @@
         ark
         zathura
         sxiv
-	cmatrix
-	hollywood
 	
         #developing
         neovim
